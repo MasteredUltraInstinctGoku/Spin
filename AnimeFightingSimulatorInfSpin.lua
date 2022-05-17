@@ -134,7 +134,7 @@ local function QNPV_fake_script() -- Button.LocalScript
 	local script = Instance.new('LocalScript', Button)
 
 	local Replicated = game:GetService("ReplicatedStorage")
-	local MaxSifier = 65
+	local MaxSifier = 35
 	
 	script.Parent.MouseButton1Up:Connect(function()
 	
