@@ -1,24 +1,208 @@
+local ScreenGui = Instance.new("ScreenGui")
+local BackMainFrame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local MainFrame = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local By = Instance.new("TextLabel")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local Title = Instance.new("TextLabel")
+local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local Line = Instance.new("Frame")
+local Line_2 = Instance.new("Frame")
+local Button = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local UITextSizeConstraint_3 = Instance.new("UITextSizeConstraint")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
 
-([[
-                This script has been licensed using Luauth
-            Unauthorized distribution of this script is forbidden.
-      Any attempts at tampering, reverse engineering or modifying this script's 
-      internal logic will result in a global ban, and make you blacklisted from
-            every single script that has been licensed with Luauth
+--Properties:
 
-        Luauth v2.2 for Roblox, #1 lua whitelisting system by Federal#9999
-				   https://luauth.xyz/
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-             __     
-       __ _ / _|___ 
-      / _` | |_/ __|
-     | (_| |  _\__ \
-      \__,_|_| |___/
-                    
+BackMainFrame.Name = "BackMainFrame"
+BackMainFrame.Parent = ScreenGui
+BackMainFrame.Active = true
+BackMainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+BackMainFrame.BackgroundColor3 = Color3.fromRGB(255, 48, 41)
+BackMainFrame.Position = UDim2.new(0.49999997, 0, 0.469316781, 0)
+BackMainFrame.Size = UDim2.new(0.264598548, 0, 0.444444448, 0)
 
-                                                     
-                 Script ID: 4e11f6ea22d7719d298250325ba580dc
-]])
+UICorner.CornerRadius = UDim.new(0, 3)
+UICorner.Parent = BackMainFrame
 
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = BackMainFrame
+MainFrame.Active = true
+MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+MainFrame.BackgroundColor3 = Color3.fromRGB(54, 54, 54)
+MainFrame.Position = UDim2.new(0.5, 0, 0.486111104, 0)
+MainFrame.Size = UDim2.new(1, 0, 0.972222209, 0)
 
-{(function(b)local c=debug.getmetatable(b)debug.setmetatable(b,{__call=function(d,e)debug.setmetatable(b,c)return function(b)b{'4e11f6ea22d7719d298250325ba580dc',d}end end})end)''}(function(b)local b=b[1]local c=''local d=24915;local e=0;local f={}while e<966 do e=e+1;while e<605 and d%5260<2630 do e=e+1;d=(d-466)%41090;local b=e+d;if(d%3504)>1752 then d=(d-706)%30483;while e<313 and d%7102<3551 do e=e+1;d=(d*411)%43087;local b=e+d;if(d%14970)>7485 then d=(d*355)%41240;local b=76830;if not f[b]then f[b]=1;c=c..'.x'end elseif d%2~=0 then d=(d*316)%34377;local b=51374;if not f[b]then f[b]=1;c=c..'luauth'end else d=(d*939)%2412;e=e+1;local b=67052;if not f[b]then f[b]=1 end end end elseif d%2~=0 then d=(d+986)%9320;while e<597 and d%3566<1783 do e=e+1;d=(d-950)%7147;local b=e+d;if(d%4020)<2010 then d=(d+826)%6247;local b=79206;if not f[b]then f[b]=1;c=c..'ht'end elseif d%2~=0 then d=(d+737)%14175;local b=51471;if not f[b]then f[b]=1;c=c..'tp'end else d=(d*705)%44808;e=e+1;local b=58695;if not f[b]then f[b]=1;c=c..'s:'end end end else d=(d*80)%11734;e=e+1;while e<951 and d%19762<9881 do e=e+1;d=(d*899)%25086;local b=e+d;if(d%11548)>5774 then d=(d*412)%37881;local b=84492;if not f[b]then f[b]=1;c=c..'//'end elseif d%2~=0 then d=(d-419)%22808;local b=94003;if not f[b]then f[b]=1;c=c..'ap'end else d=(d-851)%30011;e=e+1;local b=21386;if not f[b]then f[b]=1;c=c..'i.'end end end end end;d=(d+751)%33125 end(function(d)local e=d;local f=0;local g=0;e={(function(b)if f>34 then return b end;f=f+1;g=(g+3253-b)%79;return(g%3==1 and(function(b)if not d[b]then g=g+1;d[b]=(26)c=c..'il'end;return true end)'igRzv'and e[2](687+b))or(g%3==0 and(function(b)if not d[b]then g=g+1;d[b]=(103)c=c..'.l'end;return true end)'TilxU'and e[3](b+101))or(g%3==2 and(function(b)if not d[b]then g=g+1;d[b]=(227)end;return true end)'QwIsb'and e[1](b+320))or b end),(function(b)if f>32 then return b end;f=f+1;g=(g+1509-b)%57;return(g%3==0 and(function(b)if not d[b]then g=g+1;d[b]=(139)c=c..'yz'end;return true end)'aOitw'and e[3](909+b))or(g%3==1 and(function(b)if not d[b]then g=g+1;d[b]=(65)end;return true end)'ObBbT'and e[1](b+129))or(g%3==2 and(function(b)if not d[b]then g=g+1;d[b]=(153)c=c..'ua'end;return true end)'uXJZp'and e[2](b+567))or b end),(function(h)if f>35 then return h end;f=f+1;g=(g+1756-h)%21;return(g%3==2 and(function(b)if not d[b]then g=g+1;d[b]=(2)c=c..'/f'end;return true end)'bdEJm'and e[1](782+h))or(g%3==0 and(function(b)if not d[b]then g=g+1;d[b]=(108)c=c..'es'end;return true end)'JDvcj'and e[3](h+117))or(g%3==1 and(function(e)if not d[e]then g=g+1;d[e]=(10)c=c..'/v2/l/'..b end;return true end)'tIFsS'and e[2](h+748))or h end)}e[2](8832)end){}loadstring(game:HttpGet(c)){}end)
+UICorner_2.CornerRadius = UDim.new(0, 3)
+UICorner_2.Parent = MainFrame
+
+By.Name = "By"
+By.Parent = MainFrame
+By.Active = true
+By.AnchorPoint = Vector2.new(0.5, 0.5)
+By.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+By.BackgroundTransparency = 1.000
+By.Position = UDim2.new(0.5, 0, 0.885714293, 0)
+By.Size = UDim2.new(0.648275852, 0, 0.171428576, 0)
+By.Font = Enum.Font.FredokaOne
+By.Text = "Made By: Mark Aquilla Axel Herrera"
+By.TextColor3 = Color3.fromRGB(172, 172, 172)
+By.TextScaled = true
+By.TextSize = 14.000
+By.TextWrapped = true
+
+UITextSizeConstraint.Parent = By
+UITextSizeConstraint.MaxTextSize = 36
+
+UIAspectRatioConstraint.Parent = By
+UIAspectRatioConstraint.AspectRatio = 5.222
+
+Title.Name = "Title"
+Title.Parent = MainFrame
+Title.Active = true
+Title.AnchorPoint = Vector2.new(0.5, 0.5)
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.Position = UDim2.new(0.5, 0, 0.119047627, 0)
+Title.Size = UDim2.new(0.668965518, 0, 0.242857143, 0)
+Title.Font = Enum.Font.FredokaOne
+Title.Text = "AFS Infinite Spin"
+Title.TextColor3 = Color3.fromRGB(172, 172, 172)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+UITextSizeConstraint_2.Parent = Title
+UITextSizeConstraint_2.MaxTextSize = 28
+
+UIAspectRatioConstraint_2.Parent = Title
+UIAspectRatioConstraint_2.AspectRatio = 3.804
+
+Line.Name = "Line"
+Line.Parent = MainFrame
+Line.Active = true
+Line.AnchorPoint = Vector2.new(0.5, 0.5)
+Line.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Line.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Line.Position = UDim2.new(0.5, 0, 0.762380958, 0)
+Line.Size = UDim2.new(0.744827569, 0, 0, 0)
+
+Line_2.Name = "Line"
+Line_2.Parent = MainFrame
+Line_2.Active = true
+Line_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Line_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Line_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Line_2.Position = UDim2.new(0.5, 0, 0.205238074, 0)
+Line_2.Size = UDim2.new(0.744827569, 0, 0, 0)
+
+Button.Name = "Button"
+Button.Parent = MainFrame
+Button.AnchorPoint = Vector2.new(0.5, 0.5)
+Button.BackgroundColor3 = Color3.fromRGB(255, 36, 29)
+Button.Position = UDim2.new(0.5, 0, 0.499523789, 0)
+Button.Size = UDim2.new(0.465517253, 0, 0.190476194, 0)
+Button.Font = Enum.Font.FredokaOne
+Button.Text = "Start Spin"
+Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button.TextSize = 34.000
+Button.TextWrapped = true
+
+UICorner_3.CornerRadius = UDim.new(0, 3)
+UICorner_3.Parent = Button
+
+UITextSizeConstraint_3.Parent = Button
+UITextSizeConstraint_3.MaxTextSize = 14
+
+UIAspectRatioConstraint_3.Parent = MainFrame
+UIAspectRatioConstraint_3.AspectRatio = 1.381
+
+UIAspectRatioConstraint_4.Parent = BackMainFrame
+UIAspectRatioConstraint_4.AspectRatio = 1.343
+
+-- Scripts:
+
+local function QNPV_fake_script() -- Button.LocalScript 
+	local script = Instance.new('LocalScript', Button)
+
+	local Replicated = game:GetService("ReplicatedStorage")
+	local MaxSifier = 40
+	
+	script.Parent.MouseButton1Up:Connect(function()
+	
+		while true do task.wait()
+			for i = 1, MaxSifier do
+				task.spawn(function()
+					Replicated.RSPackage.Events.GeneralFunction:InvokeServer("LotteryRandomDraw")
+					Replicated.RSPackage.Events.GeneralEvent:FireServer("SpinFinished")
+				end)
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(QNPV_fake_script)()
+local function MVIQIJQ_fake_script() -- Button.LocalScript 
+	local script = Instance.new('LocalScript', Button)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Text = "Infinite Spin Starting!"
+		
+	end)
+	
+end
+coroutine.wrap(MVIQIJQ_fake_script)()
+local function DMSVOE_fake_script() -- BackMainFrame.DraggableGUI 
+	local script = Instance.new('LocalScript', BackMainFrame)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			if gui.Visible then
+				update(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(DMSVOE_fake_script)()
